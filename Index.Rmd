@@ -1,0 +1,88 @@
+---
+title: "Untitled123"
+author: "Suchkova EA"
+date: "05 01 2018"
+output: html_document
+# bibliography: bibliography.bib  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = T, error = T)
+```
+<!-- все тут goo.gl/371MkL -->
+## R Markdown
+
+### _италик_  *другой италик*
+
+###__жирный__ 
+
+~~зачеркивание~~
+
+#СПИСКИ
+    кролик
+    заяц
+     заяц серый
+     
+<!-- [Ссылка 1](https://agricolamz.github.io/2018_ANDAN_course_winter/2_ex.html) -->
+<!-- <https://agricolamz.github.io/2018_ANDAN_course_winter/2_ex.html> -->
+
+<!-- вставить картинку  -->
+<!-- ![](https://raw.githubusercontent.com/agricolamz/2018_ANDAN_course_winter/master/rmarkdown.png) -->
+ 
+ Код нужно оформалять вот так `rmarkdown::render()`
+
+```{r cars}
+summary(cars)
+a <- 22
+```
+## Хочу получить аргумент в тексте
+Моих данных `r a` переменных 
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+<dl>
+  <dt>Чистый HTML</dt>
+  <dd>Еще можно писать в HTML.</dd>
+
+  <dt>и Markdown в  HTML </dt>
+  <dd> даже работает **правильно**. Но можно использовать и <em>теги</em>.</dd>
+</dl>
+
+
+> Жили были три медведя <br>
+> Чук и чук <br>
+> И политрук
+
+<!-- бла бла бла бла бла @gordon02  эта хрень не работает как пишут в интернете из-за кодировок или чего-то такого, если очень надо - почитать и подумать была ошибка 83--> 
+
+###ОГЛАВЛЕНИЯ
+по ссылке
+
+#отображение Дата фреймов
+по ссылке
+
+
+#Java script
+```{r}
+library(DT)
+datatable(mtcars)
+```
+
+
+
+
+
+
+
+
+
+
+
+

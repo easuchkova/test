@@ -1,0 +1,28 @@
+name: "IceDan"
+navbar:
+  title: "IceDan"
+  left:
+    - text: "Домишко"
+      href: Index.html
+    - text: "первый"
+      href:  Untitled777.html
+    - text: "второй"
+      href: Untitled888.html
+      icon: fa-gear
+      menu:
+       - text: "Еще что-то"
+         href: Untitled777.html
+       - text: "И это не забудьте"   
+         href: Untitled888.html
+output_dir: docs
+output: 
+   html_document:
+    theme: spacelab
+    highlight: pygments
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    smooth_scroll: false
+    df_print: paged
+    include:
+      after_body: footer.html
