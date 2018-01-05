@@ -3,7 +3,7 @@ navbar:
   title: "IceDan"
   left:
     - text: "Домишко"
-      href: Index.html
+      href: index.html
     - text: "первый"
       href:  Untitled777.html
     - text: "второй"
